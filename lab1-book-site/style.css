@@ -1,0 +1,54 @@
+* { 
+    font-family: Tahoma 
+}
+
+p { 
+    text-align: justify 
+}
+
+h1 { 
+    color: yellow !important;
+}
+
+
+body {
+    background-image: url("background.jpg"); background-repeat: repeat-y;   
+    margin: 5em 10em 5em 10em
+}
+
+
+li { list-style-type: square } 
+
+h1~h2 {
+    letter-spacing: 5px;
+}
+
+#cena {
+    color: red;
+    font-weight: bold;
+}
+
+.wstęp {
+    font-style: italic;
+}
+
+td img {
+    border-color: blue;
+    border-style: solid;
+}
+
+img:hover {
+    border-color: red;
+}
+
+td>p {
+    font-size: small;
+}
+
+p~p {
+    color:grey;
+}
+
+h1 {
+    color: green;
+}
