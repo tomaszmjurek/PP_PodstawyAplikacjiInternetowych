@@ -1,0 +1,35 @@
+2020-05-02 16:55:39 Error: [MissingViewException] View file "Books\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Books\\index.ctp',
+)
+Request URL: /cake/books/index
+Stack Trace:
+#0 C:\xampp\htdocs\cake\lib\Cake\View\View.php(470): View->_getViewFileName('Books\\index')
+#1 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cake\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2020-05-02 16:55:50 Error: [MissingViewException] View file "Books\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Books\\index.ctp',
+)
+Request URL: /cake/books/index
+Stack Trace:
+#0 C:\xampp\htdocs\cake\lib\Cake\View\View.php(470): View->_getViewFileName('Books\\index')
+#1 C:\xampp\htdocs\cake\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cake\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2020-05-02 17:32:57 Error: [MissingActionException] Action BooksController::delete() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'delete',
+)
+Request URL: /cake/books/delete/3
+Stack Trace:
+#0 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cake\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
