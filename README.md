@@ -1,5 +1,5 @@
 # PP_PodstawyAplikacjiInternetowych
-Subject on Poznan University of Technology 6th semester
+Subject at Poznan University of Technology 6th semester
 
 ### Technologies:
 * [x] HTML, CSS
