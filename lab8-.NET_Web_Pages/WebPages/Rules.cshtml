@@ -1,0 +1,29 @@
+﻿@{
+    var rules = new List<String>();
+
+    if (Session["rules"] != null)
+    {
+        rules = (List<String>)Session["rules"];
+    }
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tajne</title>
+</head>
+<body>
+    <h2>Fight Club rules</h2>
+    <ul>
+        @foreach (var rule in rules)
+        {
+            <li>@rule</li>
+        }
+    </ul>
+    <form action="~/RulesAdder.cshtml" method="post">
+        <label for="frule">New rule:</label>
+        <input tyoe="text" id="frule" name="frule" /><br /><br />
+        <input type="submit" value="Submit" />
+    </form>
+</body>
+</html>
